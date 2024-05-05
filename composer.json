@@ -1,0 +1,24 @@
+{
+    "name": "solenoid/base64u",
+    "description": "Base64-url library",
+    "type": "library",
+    "keywords": ["base64u"],
+    "homepage": "https://github.com/Solenoid-IT/php-base64u",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pier Niccolò Giannelli",
+            "email": "pierniccologiannelli@gmail.com",
+            "homepage": "https://www.solenoid.it",
+            "role": "Full Stack Web Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Solenoid\\Base64U\\": "src"
+        }
+    }
+}
